@@ -3,7 +3,7 @@ using namespace std;
 
 
 int calcular_sumElemArray(int array[ ] ,int n){
-	if(n ==1){
+	if(n ==0){
 		return array[n];
 	}else{
 		return array[n]+calcular_sumElemArray(array, n-1);
